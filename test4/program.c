@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-double Dodaj();
+double Dodaj(double Skl1,double Skl2); //trzeba podac przykładowe argumenty, język c++ tego wymaga
 
 
 int main( )
