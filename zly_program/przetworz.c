@@ -125,7 +125,7 @@ int IloscWielkichLiter(char *Tekst)
 
 int main()
 {
-  char *Napis = "Jak dobrze jest wstac skoro swit. Jutrzenki blask ...";
+  char Napis[] = "Jak dobrze jest wstac skoro swit. Jutrzenki blask ..."; // zmiana wskaznika na tablice znakow pomogla
   int IloscSpacji;
   int DlugoscSlowaXXX;
   int IloscMaLiter = 0;
