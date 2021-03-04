@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 
-static const double PI; //zamieniamy extern na static
-static const double E;
+extern const double PI; // byc moze chodzilo o zamiane na static ale nie dziala w taki sposob
+extern const double E;
 
 
 int main()
